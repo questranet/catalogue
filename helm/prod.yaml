@@ -14,7 +14,7 @@ initContainers:
 job:
   enabled: true
   INPUT: "DOCDB_ENDPOINT,prod.roboshop.docdb.endpoint DOCDB_USERNAME,prod.roboshop.docdb.master_username DOCDB_PASSWORD,prod.roboshop.docdb.master_password"
-  imageVersion: 1.0.3
+  imageVersion: 1.0.4
 
 #resources:
 #  requests:
